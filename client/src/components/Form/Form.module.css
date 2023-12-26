@@ -1,0 +1,64 @@
+.form {
+  width: 639px;
+  margin: 20px !important;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inputs_items {
+  width: 100%;
+  height: 39px;
+  padding: 5px 16px;
+  border-radius: 5px;
+  background: #e8e8e8;
+  border: none;
+  outline: none;
+  padding: 5px 16px !important;
+  color: #717171;
+}
+
+.inputs > .inputs_items {
+  flex: 49%;
+  margin-bottom: 10px !important;
+}
+
+.description {
+  height: 75px;
+  padding: 5px 16px !important;
+  border-radius: 5px;
+  background: #e8e8e8;
+  border: none;
+  width: 100%;
+  resize: none;
+  outline: none;
+  color: #717171;
+  margin-bottom: 10px !important;
+}
+
+.buttons {
+  width: 100%;
+}
+
+.buttons > input {
+  border-radius: 5px;
+  background: #696969;
+  color: #fff;
+  height: 39px;
+  padding: 4px 22px;
+  border: none;
+  outline: none;
+  width: 49%;
+}
+
+.buttons > input:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #000;
+}
+
+.buttons > input:first-child,
+.inputs > .inputs_items:nth-child(2n + 1) {
+  margin-right: 10px !important;
+}

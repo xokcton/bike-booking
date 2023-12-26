@@ -1,0 +1,8 @@
+.card_list_wrapper {
+  /* 84px = header(42px) + footer(42px) */
+  height: calc(100vh - 84px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

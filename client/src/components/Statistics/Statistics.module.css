@@ -1,0 +1,12 @@
+.statistics_wrapper {
+  margin: 20px !important;
+}
+
+.statistics_wrapper > h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.statistics_wrapper > h4,
+.statistics_wrapper > div {
+  margin-bottom: 15px !important;
+}
